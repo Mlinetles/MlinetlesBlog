@@ -1,0 +1,13 @@
+{
+  "name": "mlinetlesblog",
+  "version": "1.0.0",
+  "description": "Mlinetles博客（并不是）",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
