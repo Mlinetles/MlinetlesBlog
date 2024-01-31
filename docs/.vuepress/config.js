@@ -8,6 +8,12 @@ module.exports = {
                 link: '/projects/'
             }
         ],
-        sidebar: 'auto'
+        sidebar: {
+            '/projects/': 'auto',
+            '/': [
+                ['', '首页'],
+                ['/projects/', '计划']
+            ]
+        }
     }
 }
